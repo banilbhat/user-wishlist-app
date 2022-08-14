@@ -1,7 +1,7 @@
 from flask_sqlalchemy import SQLAlchemy 
 
 db = SQLAlchemy()
-# this is a sam
+# this is a sample test
 class UserFavs(db.Model):
 	username = db.Column(db.String, primary_key=True)
 	place = db.Column(db.String)
