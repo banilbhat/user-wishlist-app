@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    build: ./
+    build: anilbhatb/user-wishlist-app
     environment:
       - PYTHONBUFFERED=1
     ports:

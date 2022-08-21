@@ -1,5 +1,5 @@
 {
-	"AWSEBDockerrunVersion": 3,
+	"AWSEBDockerrunVersion": 2,
 	"containerDefinitions": [{
 			"environment": [{
 					"name": "POSTGRES_USER",
@@ -44,7 +44,7 @@
 				"db"
 			],
 			"name": "web",
-			"image": "vagdevik/user-wishlist-app",
+			"image": "anilbhatb/user-wishlist-app",
 			"memory": 100,
 			"portMappings": [{
 				"containerPort": 80,
